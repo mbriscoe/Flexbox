@@ -1,0 +1,19 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    /* align-content: space-around; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: bisque;
+    margin: 20px;
+}
